@@ -1,0 +1,72 @@
+.inputTask {
+    background: #DBE2EF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-column-gap: 10px;
+    align-items: center;
+    padding-right: 15px;
+}
+.inputTask:last-child {
+    margin-bottom: 0;
+}
+.inputTaskCheckbox {
+    border: 1px solid #3F72AF;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.inputTaskLabel {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 15px;
+}
+.inputTaskTitle {
+    padding: 5px;
+    line-height: 1.2;
+}
+.inputTaskTitleEdit {
+    font: 1rem/1em 'Roboto', sans-serif;
+    border: none;
+    padding: 5px;
+    background: none;
+    box-shadow: 0 4px 0 -3px #3F72AF;
+}
+
+.inputTaskEdit, .inputTaskRemove, .inputTaskSave {
+    display: block;
+    height: 100%;
+    width: 50px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 0.3s
+}
+.inputTask:hover {
+    opacity: 0.7;
+}
+
+.inputTaskEdit {
+    background: url('./images/edit-svgrepo-com.svg') no-repeat center center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+}
+
+.inputTaskSave {
+    background: url('./images/check-svgrepo-com.svg') no-repeat center center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+
+.inputTaskRemove {
+    background: url('./images/trash-alt-svgrepo-com.svg') no-repeat center center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+}

@@ -1,0 +1,17 @@
+.clearAllTasksButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #DBE2EF;
+    text-align: center;
+}
+.clearAllTasksButton:hover {
+    color: #f65050;
+}
+.clearAllTasksDivButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
